@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Blog EN</title>
+	<atom:link href="http://www.prestashop.com/blog/en/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.prestashop.com/blog/en</link>
+	<description></description>
+	<lastBuildDate>Fri, 02 May 2014 13:54:59 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.4</generator>
+		<item>
+		<title>GitHub Tutorial Instructions for Beginners</title>
+		<link>http://www.prestashop.com/blog/en/github-tutorial-with-prestashop/</link>
+		<comments>http://www.prestashop.com/blog/en/github-tutorial-with-prestashop/#comments</comments>
+		<pubDate>Wed, 30 Apr 2014 15:39:41 +0000</pubDate>
+		<dc:creator>Benjamin Utterback</dc:creator>
+				<category><![CDATA[Best Development Practices]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17040</guid>
+		<description><![CDATA[With 25,000+ commits from 175+ contributors in only 18 months, PrestaShop’s GitHub branches are an enormous success. Use this Github Tutorial to join in on the action. Staying true to our commitment of being Open-Source, our GitHub Repositories are becoming &#8230; <a href="http://www.prestashop.com/blog/en/github-tutorial-with-prestashop/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
+			<content:encoded><![CDATA[<p>With 25,000+ commits from 175+ contributors in only 18 months, PrestaShop’s GitHub branches are an enormous success. Use this Github Tutorial to join in on the action. Staying true to our commitment of being Open-Source, our GitHub Repositories are becoming increasingly active each day as more community developers collaborate together. We welcome and encourage everyone to contribute to our Ecommerce solution using GitHub. You want in? Great.  I’ll briefly describe what GitHub is and provide step by step instructions on how you can contribute to the PrestaShop software using GitHub.</p>
+<p style="text-align: center;"><img class="aligncenter  wp-image-17072" title="Github Tutorial" src="http://www.prestashop.com/blog/en/files/2014/04/THE-BEST-THINGAVAILABLE.png" alt="" width="580" height="250" /></p>
+<h2><span id="more-17040"></span></h2>
+<p>GitHub is fueled by the version control system Git, an Open-Source project built by <a href="http://techcrunch.com/2012/04/19/an-interview-with-millenium-technology-prize-finalist-linus-torvalds/">Linus Torvalds, creator of Linux</a>. GitHub allows easy collaboration for developers to contribute by allowing them to “fork” (copy) project files, make changes and submit the changes to the owner of the project. The owner of the project can then easily review the changes and accept or decline the changes. All of this is done with a user-friendly navigation on a web-based interface.</p>
+<p>It provides a central hub for anyone around the world to modify and submit code to a project, while still allowing the owner easy management collaboration with their respective contributors. GitHub, sums it up nicely, “Git allows groups of people to work on the same documents (often code) at the same time, and without stepping on each other&#8217;s toes. It&#8217;s a distributed version control system.”</p>
+<p>&nbsp;</p>
+<h2 style="text-align: left;"><strong>GitHub Tutorial: Contribute to PrestaShop in 10 Steps </strong></h2>
+<p>PrestaShop 1.6 is written mostly in PHP. Other languages used throughout are JavaScript, HTML, CSS, the Smarty templating language, SQL, and XML.</p>
+<p>Developers who want to contribute to PrestaShop’s Open-Source software can follow these steps. <strong>[Please note that these steps are only for contributing to the PrestaShop core 1.6 <span style="text-decoration: underline;">development</span> branch. Pull requests made to other branches may be ignored or deleted for code consistency.]</strong></p>
+<p>&nbsp;</p>
+<h5>1)      Create your <a href="https://github.com/">GitHub account</a></h5>
+<p style="text-align: center;"><img class="aligncenter  wp-image-17042" title="Github Tutorial" src="http://www.prestashop.com/blog/en/files/2014/04/Sign-Up.png" alt="Github Tutorial" width="598" height="107" /></p>
+<p>&nbsp;</p>
+<h5>2)      Find the <a href="https://github.com/PrestaShop">PrestaShop Repository List</a></h5>
+<p style="text-align: center;"><a href="http://www.prestashop.com/blog/en/files/2014/04/2-Repository.png" target="_blank"><img class="aligncenter  wp-image-17043" title="Github Repository" src="http://www.prestashop.com/blog/en/files/2014/04/2-Repository.png" alt="" width="595" height="197" /></a></p>
+<p>&nbsp;</p>
+<h5>3)    Choose the Repository  named “PrestaShop” this will be the latest version <a href="https://github.com/PrestaShop/PrestaShop">PrestaShop v1.6</a></h5>
+<p><a href="http://www.prestashop.com/blog/en/files/2014/04/Repository-Github.png" target="_blank"><img class="aligncenter  wp-image-17044" title="Repository Github" src="http://www.prestashop.com/blog/en/files/2014/04/Repository-Github.png" alt="" width="572" height="157" /></a></p>
+<p>&nbsp;</p>
+<h5>4)      Select the “1.6” branch from the dropdown seen below.<span style="color: #339966;"> <strong>[IMPORTANT: <span style="text-decoration: underline;">Do not</span> select branch named “master”, requests should only be made to the “1.6” branch.]</strong></span></h5>
+<p><a href="http://www.prestashop.com/blog/en/files/2014/04/CHoose-Branch.png" target="_blank"><img class="aligncenter  wp-image-17045" title="CHoose Branch" src="http://www.prestashop.com/blog/en/files/2014/04/CHoose-Branch.png" alt="" width="505" height="162" /></a></p>
+<p>&nbsp;</p>
+<h5>5)        Next, click on “Fork” to copy the project to your personal Github account.<span style="text-align: center;"> </span></h5>
+<p style="text-align: center;"><a href="http://www.prestashop.com/blog/en/files/2014/04/4-Fork.png" target="_blank"><img class="aligncenter  wp-image-17046" title="4) Fork" src="http://www.prestashop.com/blog/en/files/2014/04/4-Fork.png" alt="" width="558" height="134" /></a></p>
+<p>&nbsp;</p>
+<h5>6)      Create another Branch within your Fork for your changes. I named mine “My-Changes”</h5>
+<p><a href="http://www.prestashop.com/blog/en/files/2014/04/5-Create-branch.png" target="_blank"><img class="aligncenter  wp-image-17047" title="5) Create branch" src="http://www.prestashop.com/blog/en/files/2014/04/5-Create-branch.png" alt="" width="580" height="318" /></a></p>
+<p>&nbsp;</p>
+<h5>7)       Once you are in your newly created branch, example “My-Changes”, navigate to the specific file you want to modify and click Edit. Make sure that <span style="font-size: 14px;">your code changes follow our </span><a href="http://doc.prestashop.com/display/PS16/Coding+Standards">Coding Standards</a></h5>
+<p style="text-align: center;"><a href="http://www.prestashop.com/blog/en/files/2014/04/6-Edit-File.png" target="_blank"><img class="aligncenter  wp-image-17048" title="6) Edit File" src="http://www.prestashop.com/blog/en/files/2014/04/6-Edit-File.png" alt="" width="506" height="185" /></a><span style="font-size: 14px;">    </span></p>
+<p>&nbsp;</p>
+<h5>8)      Scroll to the bottom of the page and in Commit Summary, <a href="http://doc.prestashop.com/display/PS16/How+to+write+a+commit+message">you <em>must </em>follow our notation rules</a> in order for your request to be committed.  Then click, “Commit Changes”</h5>
+<p><a href="http://www.prestashop.com/blog/en/files/2014/04/8-Commit-changes.png" target="_blank"><img class="aligncenter  wp-image-17049" title="8) Commit changes" src="http://www.prestashop.com/blog/en/files/2014/04/8-Commit-changes.png" alt="" width="529" height="225" /></a></p>
+<p>&nbsp;</p>
+<h5>9)    <span style="color: #339966;">  <strong>[IMPORTANT] You must test your changes on your own local installation or test environment of PrestaShop to make sure the change is working as you expected.</strong> </span><br />
+After you have tested and you are ready to move forward, you need to submit your Pull Request.  Navigate back to your Github branch, in my example it was named “My-Changes”,  and you will see a button to click that says “Compare &amp; pull request”</h5>
+<p><a href="http://www.prestashop.com/blog/en/files/2014/04/9-Compare-and-Pull.png" target="_blank"><img class="aligncenter  wp-image-17050" title="9) Compare and Pull" src="http://www.prestashop.com/blog/en/files/2014/04/9-Compare-and-Pull.png" alt="" width="552" height="323" /></a></p>
+<p>&nbsp;</p>
+<h5>10)  Add additional comments and pictures before you send your request to our team. Make sure to <a href="https://github.com/PrestaShop/PrestaShop/blob/1.6/CONTRIBUTING.md">review the guidelines for contributing</a> and if everything is in order, click “Send Pull Request”</h5>
+<p><a href="http://www.prestashop.com/blog/en/files/2014/04/10-Send-pull-request.png" target="_blank"><img class="aligncenter  wp-image-17051" title="10) Send pull request" src="http://www.prestashop.com/blog/en/files/2014/04/10-Send-pull-request.png" alt="" width="550" height="271" /></a></p>
+<h5>That’s it! You did it. Now you’ll wait a bit for one of our core developers to either include your code changes to our software, comment on possible improvements to your code or state reasons why the code change will not be accepted.</h5>
+<p>&nbsp;</p>
+<h4><strong><span style="text-decoration: underline;">Useful Links</span></strong></h4>
+<ul>
+<li>Read our <a href="http://doc.prestashop.com/display/PS16/Contributing+code+to+PrestaShop">Official Contribution Document</a></li>
+<li>Got 15 minutes and want to learn Git? Check out these tutorials provided by GitHub: <a href="http://try.github.io/">http://try.github.io/</a></li>
+<li>Stuck and need help? Visit GitHub’s Help page for common issues: <a href="https://help.github.com/">https://help.github.com/</a></li>
+<li>All core files you commit in your pull request must respect/use the <a href="http://opensource.org/licenses/OSL-3.0">Open Software License (OSL 3.0)</a>.</li>
+</ul>
+<p>&nbsp;</p>
+<h4><strong><span style="text-decoration: underline;">More Ways to Contribute</span></strong></h4>
+<p>If you are not a developer but still want to contribute to PrestaShop, don’t worry because there are other ways to help.</p>
+<ul>
+<li><a href="http://www.prestashop.com/forums/">Join the PrestaShop Forum</a> and be active on one of the largest online retail communities in the world. With over 600,000 members and 30 languages/communities, you’ll be in the perfect place for Ecommerce discussions, tips, technical tutorials and more.</li>
+<li><a href="https://crowdin.net/project/prestashop-official">Help translate PrestaShop in your language</a>. Thanks to contributions from our global Community, store owners can translate their online store in 60+ languages. Submit translations on PrestaShop&#8217;s CrowdIn page to help the Community sell all across the globe.</li>
+<li>Found an issue or want to submit a feature request? <a href="http://forge.prestashop.com/">Use the Forge!</a> PrestaShop Forge is the official ticket-tracker for PrestaShop. You don’t need to be a developer to write a ticket or request an improvement. You will need to create an account on the Forge: <a href="http://doc.prestashop.com/display/PS16/How+to+use+the+Forge+to+contribute+to+PrestaShop">follow these instructions</a> and then wait for a core developer to answer you.</li>
+</ul>
+<h4><strong><span style="text-decoration: underline;">GitHub+PrestaShop = &lt;3</span></strong></h4>
+<p>Join the movement and use GitHub and your developer skills to improve the PrestaShop solution.  We love Open-Source and are committed to providing the best Ecommerce experience available. Just remember one thing, we grow as you grow.</p>
+<p>Thanks for reading and feel free to leave your comments or questions below.</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/github-tutorial-with-prestashop/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>PrestaShop World Tour: What&#8217;s going on in Brazil!?</title>
+		<link>http://www.prestashop.com/blog/en/prestashop-world-tour-whats-going-on-in-brazil/</link>
+		<comments>http://www.prestashop.com/blog/en/prestashop-world-tour-whats-going-on-in-brazil/#comments</comments>
+		<pubDate>Wed, 30 Apr 2014 12:42:07 +0000</pubDate>
+		<dc:creator>Quentin Audrain</dc:creator>
+				<category><![CDATA[PrestaShop World Tour]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17111</guid>
+		<description><![CDATA[Here we are, in the most dynamic ecommerce market in South America: BRAZIL! Brazil is truly a country of entrepreneurs. They embrace the culture of building your own business and the popularity of online commerce makes it even easier for &#8230; <a href="http://www.prestashop.com/blog/en/prestashop-world-tour-whats-going-on-in-brazil/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
+			<content:encoded><![CDATA[<p>Here we are, in the most dynamic ecommerce market in South America: <span style="color: #333333;"><strong>BRAZIL!</strong></span></p>
+<p>Brazil is truly a country of entrepreneurs. They embrace the culture of building your own business and the popularity of online commerce makes it even easier for Brasilians to succeed.</p>
+<p><img class="aligncenter size-full wp-image-17112" title="Sao Paulo Brazil PrestaShop World Tour Header" src="http://www.prestashop.com/blog/en/files/2014/04/Sao-Paulo-Brazil-PrestaShop-World-Tour-Header.jpg" alt="" width="580" height="281" /></p>
+<p><span id="more-17111"></span><br />
+This country is also the 5th largest Internet market in the world and <em>represents about 60% of all B2C Ecommerce in Latin America</em>. Brazil is definitely a strong online retail market and international e-tailers should consider it as a key target to grow their South American customer base.</p>
+<p><img class="aligncenter size-full wp-image-17113" title="Sao Paulo PrestaShop World Tour" src="http://www.prestashop.com/blog/en/files/2014/04/Sao-Paulo-PrestaShop-World-Tour.jpg" alt="" width="580" height="330" /></p>
+<p>We met with Bruna from Agencia Web Shop in Sao Paulo, she’s an active member in the PrestaShop Community and the first PrestaShop freelancer/agency certified in Brazil.<br />
+Watch the video interview to see what Agencia Web Shop has to share about ecommerce in Brazil!</p>
+<p><iframe src="//player.vimeo.com/video/93349189" frameborder="0" width="500" height="281"></iframe></p>
+<p><a href="http://vimeo.com/93349189">PrestaShop World Tour: Agencia Web Shop, Sao Paulo</a> from <a href="http://vimeo.com/prestashop">PrestaShop</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<p><span style="color: #003366;">Next stop: <strong>LIMA, PERU!</strong></span></p>
+<p>Want your city and PrestaShop store to be featured next? Or want to share important ecommerce facts about your country? Leave us a comment or give us a shout out using the hashtag <span style="color: #333333;"><strong>#PSWorldTour</strong></span> on <a href="https://twitter.com/PrestaShop" target="_blank">Twitter</a>!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/prestashop-world-tour-whats-going-on-in-brazil/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Examples of Ecommerce Marketing Emails that Work!</title>
+		<link>http://www.prestashop.com/blog/en/examples-of-ecommerce-marketing-emails-that-work/</link>
+		<comments>http://www.prestashop.com/blog/en/examples-of-ecommerce-marketing-emails-that-work/#comments</comments>
+		<pubDate>Thu, 24 Apr 2014 16:03:25 +0000</pubDate>
+		<dc:creator>Natalie Beigel</dc:creator>
+				<category><![CDATA[Ecommerce Tips and Advice]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=16822</guid>
+		<description><![CDATA[Your customers’ inboxes are constantly flooded with marketing emails from retailers – so how can you make your communication stand out? Email marketing is becoming increasingly more important for ecommerce businesses in order to build customer loyalty, increase conversion rates &#8230; <a href="http://www.prestashop.com/blog/en/examples-of-ecommerce-marketing-emails-that-work/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
+			<content:encoded><![CDATA[<p>Your customers’ inboxes are constantly flooded with marketing emails from retailers – so how can you make your communication stand out? Email marketing is becoming increasingly more important for ecommerce businesses in order to <a href="http://www.prestashop.com/blog/en/the-best-ways-to-build-customer-loyalty-for-your-online-store/ " target="_blank">build customer loyalty</a>, increase conversion rates and run a profitable online business.</p>
+<p>Today, let’s dive deeper into the importance of this communication medium and check out examples of ecommerce marketing emails that work!</p>
+<p><img class="aligncenter size-full wp-image-16824" title="EN_Ecommerce Marketing Emails" src="http://www.prestashop.com/blog/en/files/2014/04/EN_Ecommerce-Marketing-Emails.jpg" alt="" width="571" height="250" /><br />
+<span id="more-16822"></span></p>
+<p>By sending timely, relevant and most importantly engaging, conversion-oriented emails, you can successfully measure your shop’s marketing performance and ROI. It’s not easy to send a strong email campaign the first time – but it’s okay, you should always be testing what works for your customer base and what emails bring your business the most value.</p>
+<p>Test different send times, different call to action buttons, different promotions, different templates until you finally understand what’s working. Take a look at Kiss Metric’s <a href="http://blog.kissmetrics.com/ab-testing-email-campaigns/ " target="_blank">Beginner’s Guide to A/B Testing: Email Campaigns that Convert</a>.</p>
+<h2><span style="color: #e46a5d;">Email marketing tips for online retailers:</span></h2>
+<p style="padding-left: 30px;"><span style="color: #e46a5d;">•</span> Develop a goal for every email campaign<br />
+<span style="color: #e46a5d;">•</span> Write content that caters to your target customers<br />
+<span style="color: #e46a5d;">•</span> Be timely and relevant – <a href="http://www.prestashop.com/blog/en/important-shopping-dates-for-e-commerce-merchants-2014/#more-15626 " target="_blank">2014 Important Shopping Dates for Ecommerce </a><br />
+<span style="color: #e46a5d;">•</span> Include tracked links to measure conversions<br />
+<span style="color: #e46a5d;">•</span> Use effective <a href="http://www.prestashop.com/blog/en/the-importance-of-call-to-action-buttons-on-your-e-commerce-site/ " target="_blank">ecommerce call to action buttons</a><br />
+<span style="color: #e46a5d;">•</span> Keep it simple<br />
+<span style="color: #e46a5d;">•</span> Don’t spam your subscriber base</p>
+<p>The more you focus on the purpose of your email, the more likely you’ll get the open rate and click through rate you want to achieve.</p>
+<h2><span style="color: #e46a5d;">What can email marketing do for your online business?</span></h2>
+<p style="padding-left: 30px;"><span style="color: #e46a5d;">•</span> Increase traffic and sales<br />
+<span style="color: #e46a5d;">•</span> Promote products that are not selling<br />
+<span style="color: #e46a5d;">•</span> Share new arrivals with customers<br />
+<span style="color: #e46a5d;">•</span> Build a relationship with your customers<br />
+<span style="color: #e46a5d;">•</span> Share news, promotions and relevant content</p>
+<p>That’s not all! PracticalEcommerce went ahead and listed the <a href="http://www.practicalecommerce.com/articles/3875-Don-t-Forget-Email-Marketing-13-Reasons " target="_blank">13 reasons why email marketing is important for ecommerce merchants</a>.</p>
+<h2><span style="color: #e46a5d;">Ecommerce email template inspiration</span></h2>
+<p>Let’s share different marketing emails from PrestaShop stores that are effective, engaging and successful. We’ve gone ahead and listed their email subject, the goal of the email and what we loved about each one. Each email template and design is unique to help inspire your next campaign!</p>
+<h4 style="padding-left: 30px;"><span style="color: #e46a5d;">American Vintage</span></h4>
+<p style="padding-left: 30px;"><span style="color: #000080;"><strong>Email subject:</strong></span> “Top Drawer XXL Knits / Bestsellers”</p>
+<p style="text-align: center;"><img class="size-full wp-image-16831 aligncenter" title="American Vintage" src="http://www.prestashop.com/blog/en/files/2014/04/American-Vintage.jpg" alt="" width="406" height="883" /></p>
+<p style="padding-left: 30px;"><span style="color: #000080;"><strong>Marketing objective:</strong></span> Drive traffic to a specific product page with hand selected items.</p>
+<p style="padding-left: 30px;"><span style="color: #000080;"><strong>Why we love it:</strong></span><br />
+<span style="color: #000080;">•</span> Use of large image and minimal text<br />
+<span style="color: #000080;">•</span> Strong call to action button<br />
+<span style="color: #000080;">•</span> Creative “1 Look A Day” page to help customers visualize products as outfits<br />
+<span style="color: #000080;">•</span> 3 simple links at the footer</p>
+<h4 style="padding-left: 30px;"><span style="color: #e46a5d;">Gretel Home</span></h4>
+<p style="padding-left: 30px;"><span style="color: #000080;"><strong>Email subject:</strong></span> “Fresh Flowers”</p>
+<p style="text-align: center;"><img class="aligncenter  wp-image-16834" title="Gretel Home" src="http://www.prestashop.com/blog/en/files/2014/04/Gretel-Home.jpg" alt="" width="501" height="586" /></p>
+<p style="padding-left: 30px;"><span style="color: #000080;"><strong>Marketing objective:</strong></span> Introducing season-appropriate collection of products.</p>
+<p style="padding-left: 30px;"><span style="color: #000080;"><strong>Why we love it:</strong></span><br />
+<span style="color: #000080;">•</span> Timely and relevant for Spring<br />
+<span style="color: #000080;">•</span> Large, colorful, high quality image<br />
+<span style="color: #000080;">•</span> Only one main objective</p>
+<h4 style="padding-left: 30px;"><span style="color: #e46a5d;">Bimba y Lola</span></h4>
+<p style="padding-left: 30px;"><span style="color: #000080;"><strong>Email subject:</strong></span> “Online Exclusive”</p>
+<p style="text-align: center; padding-left: 30px;"><img class="aligncenter  wp-image-16832" title="Bimba y Lola" src="http://www.prestashop.com/blog/en/files/2014/04/Bimba-y-Lola.jpg" alt="" width="490" height="346" /></p>
+<p style="padding-left: 30px; text-align: left;"><span style="color: #000080;"><strong>Marketing objective:</strong></span> Announcing a collection exclusive for online shoppers.</p>
+<p style="padding-left: 30px; text-align: left;"><span style="color: #000080;"><strong>Why we love it:</strong></span><br />
+<span style="color: #000080;">•</span> Sharing exclusive info increasing customer loyalty<br />
+<span style="color: #000080;">•</span> Different angles of product</p>
+<h4 style="padding-left: 30px;"><span style="color: #e46a5d;">Donna Wilson</span></h4>
+<p style="padding-left: 30px;"><span style="color: #000080;"><strong>Email subject:</strong></span> “Mother’s Day [UK] is March 30th! Gifts for Mum at Donna Wilson”</p>
+<p style="text-align: center;"><img class="aligncenter  wp-image-16833" title="Donna Wilson" src="http://www.prestashop.com/blog/en/files/2014/04/Donna-Wilson.jpg" alt="" width="395" height="637" /></p>
+<p style="text-align: left; padding-left: 30px;"><span style="color: #000080;"><strong>Marketing objective:</strong></span> Drive customers to their Mother’s Day special product page</p>
+<p style="text-align: left; padding-left: 30px;"><span style="color: #000080;"><strong>Why we love it:</strong></span><br />
+<span style="color: #000080;">•</span> Clean, matching colors<br />
+<span style="color: #000080;">•</span> Simple text, clear link<br />
+<span style="color: #000080;">•</span> Incentive with free gift<br />
+<span style="color: #000080;">•</span> Quick links at footer</p>
+<h4 style="padding-left: 30px;"><span style="color: #e46a5d;">What Goes Around Comes Around</span></h4>
+<p style="padding-left: 30px;"><strong><span style="color: #000080;">Email subject:</span></strong> “Spring Fling: Shop our Latest Arrivals”</p>
+<p style="text-align: center;"><img class="aligncenter  wp-image-16836" title="What Goes Around NYC" src="http://www.prestashop.com/blog/en/files/2014/04/What-Goes-Around-NYC.jpg" alt="" width="478" height="536" /></p>
+<p style="text-align: left; padding-left: 30px;"><strong><span style="color: #000080;">Marketing objective:</span></strong> Spotlight on new arrivals</p>
+<p style="text-align: left; padding-left: 30px;"><strong><span style="color: #000080;">Why we love it:</span></strong><br />
+<span style="color: #000080;">•</span> Use of seasonal phrases: Spring Fling<br />
+<span style="color: #000080;">•</span> 1 link, 1 large image<br />
+<span style="color: #000080;">•</span> Leverages the beginning of spring</p>
+<h4 style="padding-left: 30px;"><span style="color: #e46a5d;">Todo Bonito</span></h4>
+<p style="padding-left: 30px;"><span style="color: #000080;"><strong>Email subject:</strong></span> “New designs in our shop!”</p>
+<p style="text-align: center;"><img class="aligncenter size-full wp-image-16835" title="Todo Bonito" src="http://www.prestashop.com/blog/en/files/2014/04/Todo-Bonito.jpg" alt="" width="396" height="623" /></p>
+<p style="text-align: left; padding-left: 30px;"><span style="color: #000080;"><strong>Marketing objective:</strong></span> Attract customers to purchase new party design packages.</p>
+<p style="text-align: left; padding-left: 30px;"><span style="color: #000080;"><strong>Why we love it:</strong></span><br />
+<span style="color: #000080;">•</span> Real life setups for images<br />
+<span style="color: #000080;"><strong>•</strong></span> Colorful images with little text<br />
+<span style="color: #000080;"><strong>•</strong></span> Barely noticeable watermark but great if subscribers share it</p>
+<h2><span style="color: #e46a5d;">Ready to start your next ecommerce email campaign?</span></h2>
+<p><span style="color: #000080;"><strong>Step 1:</strong></span> Start collecting e-mails addresses – use opt-in buttons at checkout, integrate newsletter subscription buttons, promote your marketing emails via social networks and encourage customers to share it with their friends.</p>
+<p><span style="color: #000080;"><strong>Step 2:</strong></span> Select an email service provider. There’s hundreds out there but you want to find one that seamlessly integrates with your ecommerce software. PrestaShop has dozens of <a href="http://addons.prestashop.com/en/search?search_query=email" target="_blank">email marketing modules on PrestaShop’s Official Marketplace</a> that let you quickly and easily create beautiful emails for your customers.</p>
+<p><span style="color: #000080;"><strong>Step 3:</strong> </span>Review the tips and email examples above and test what works best for your online business.<span style="color: #333333;"> Create an Excel file that<strong> tracks the following:</strong></span></p>
+<p style="padding-left: 60px;"><span style="color: #e46a5d;">•</span> Email subject line<br />
+<span style="color: #e46a5d;">•</span> Send time<br />
+<span style="color: #e46a5d;">•</span> Send date<br />
+<span style="color: #e46a5d;">•</span> Number of subscribers<br />
+<span style="color: #e46a5d;">•</span> Open rate<br />
+<span style="color: #e46a5d;">•</span> Click through rate<br />
+<span style="color: #e46a5d;">•</span> Unsubscribe clicks<br />
+<span style="color: #e46a5d;">•</span> Content of email</p>
+<p>This will help you once you’ve sent a few emails to look back and see what worked the best. Pay close attention to all the elements you’re tracking to start developing your own best practices.</p>
+<p>&#8211;<br />
+Start sending powerful email marketing campaigns that work with PrestaShop. Manage all of your communications directly from your back office, send personalized automatic emails for <a href="http://addons.prestashop.com/en/search?search_query=abandoned+cart" target="_blank">abandoned carts</a> and run a profitable online business today</p>
+<p><a href="http://www.prestashop.com/en/download" target="_blank">Download PrestaShop</a> or test the <a href="http://www.prestashop.com/en/demo" target="_blank">demo</a> and experience the world’s most powerful ecommerce solution.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/examples-of-ecommerce-marketing-emails-that-work/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Canada: 7 tips on Fraud and Risk Control for Ecommerce</title>
+		<link>http://www.prestashop.com/blog/en/canada-7-tips-on-fraud-and-risk-control-for-ecommerce/</link>
+		<comments>http://www.prestashop.com/blog/en/canada-7-tips-on-fraud-and-risk-control-for-ecommerce/#comments</comments>
+		<pubDate>Wed, 23 Apr 2014 16:59:18 +0000</pubDate>
+		<dc:creator>Deborah Penna</dc:creator>
+				<category><![CDATA[PrestaShop Partners]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=16979</guid>
+		<description><![CDATA[Now, more than ever e-merchants must reassess and review their risk management and loss control procedures. With internet fraud on the rise again, according to Kroll’s Global Fraud Report – ‘69% of Canadian companies were affected at least by one &#8230; <a href="http://www.prestashop.com/blog/en/canada-7-tips-on-fraud-and-risk-control-for-ecommerce/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
+			<content:encoded><![CDATA[<p>Now, more than ever e-merchants must reassess and review their risk management and loss control procedures. With internet fraud on the rise again, according to Kroll’s Global Fraud Report – <a href="http://fraud.kroll.com/region-overview/canada/" target="_blank">‘69% of Canadian companies were affected at least by one fraud in 2012 / 2013&#8242;</a> &#8211; ecommerce businesses are particularly at risk.</p>
+<p>Typically, credit card fraud can result in thousands of dollars in losses but, that’s not all. Fraud also puts your merchant account contract at risk and can damage your business’ reputation.</p>
+<p><img class="aligncenter size-full wp-image-17036" title="Desjardin Image" src="http://www.prestashop.com/blog/en/files/2014/04/Desjardin-Image.jpg" alt="" width="539" height="260" /></p>
+<p>&nbsp;</p>
+<p><span id="more-16979"></span>As fraud attacks are rampant and causing huge losses to merchants, let’s review together how to spot potential fraud and what you can do to safeguard your business.</p>
+<h2>Identifying fraudulent activities</h2>
+<p>Most of the online sales are ‘Card Not Present’ transactions; this means that the e-merchant is confronted with a particularly difficult challenge when it comes to verifying and validating credit cards, as the card is not physically presented to the e-merchant for inspection.</p>
+<p><strong>So, how can you spot ‘Card Not Present Fraud’?</strong><br />
+Here are some of the characteristics or unusual purchasing patterns that you should be on the lookout for:</p>
+<p><strong>1.Larger than usual purchases</strong></p>
+<p><strong>2.Multiple purchases of the same expensive item</strong></p>
+<p><strong>3.Buying the most expensive model</strong></p>
+<p><strong>4.Many large purchases in rapid succession</strong></p>
+<p><strong>5.Multiple cards used from a single IP address</strong></p>
+<p><strong>6.Placing an order using a free email service</strong></p>
+<p><strong>7.In addition, pay attention to special shipping requests:</strong></p>
+<p>- ‘Express’ or ‘overnight’ delivery<br />
+- Shipping to a single address but using multiple credit cards<br />
+- Many purchases, using one card, and shipping to multiple addresses</p>
+<h2>What measures can you take to prevent fraud?</h2>
+<p>1. First and foremost, make sure that your <strong>online store is protected, to prevent potential attacks;</strong> that all account information is securely stored and that you work with PCI-compliant processors. Attacking computer systems and databases is the most common method for<strong> information theft.</strong></p>
+<p>2. As a minimum requirement, online stores accepting credit cards should request customers to enter <strong>the security code, called the CVC or CSC or CVV2</strong> usually found at the back of the card. As this type of information is more difficult for cybercriminals to obtain.</p>
+<p>3. Ask your Bank/Payment Processor to provide <strong>address verification services;</strong> checking whether the billing address and the delivery address match. Although, this is not always a sign of fraud, be wary if the addresses don’t match and the card holder requires express delivery.</p>
+<p>4. Implement a <strong>3D secure protocol,</strong> which requires the customer to create a private code, when paying online. Again, this is something your Credit Card Processor can advise you on.</p>
+<p>5. <strong>Compare the IP location with the billing address</strong> to make sure they’re in the same country.</p>
+<p>6. For international customers, obtain an updated list of high-risk fraud countries; you can <strong>block the country IP or use geo-location technologies that can help you evaluate which transactions are valid and which are potentially fraudulent.</strong></p>
+<p>7. Especially, for expensive items, use a carrier that requires <strong>ID and a POD</strong> (proof of delivery).</p>
+<p>The above list is by no means exhaustive!</p>
+<p>If you suspect that a transaction might be fraudulent, it seems obvious but, refrain from shipping your goods without further verification. Check that the billing and the ship-to address match and contact the card holder, if possible.</p>
+<p>If necessary, escalate accordingly by following your Processor’ loss control procedure.</p>
+<h3>Advanced fraud screening with Desjardins’ fraud prevention tools</h3>
+<p>Desjardins is the largest financial cooperative in Canada. Desjardins and PrestaShop have teamed up and developed a module that comprises a full range of transactions: credit card payments, refund and cancellation.</p>
+<p>&nbsp;</p>
+<p><img class="alignnone size-full wp-image-17031" src="http://www.prestashop.com/blog/en/files/2014/04/Desjardinsbusiness1.jpg" alt="" width="500" height="115" /></p>
+<p>&nbsp;</p>
+<p><strong>The module includes advanced fraud protection tools, such as:</strong></p>
+<p>- Security code / CVV2<br />
+- 3D Secure: Verified by Visa and MasterCard Secure Code (optional)<br />
+- Fraud prevention module.</p>
+<p>The fraud prevention module helps you <strong>limit and block risky payments</strong> by applying specific filters that can be configured, according to business’ needs.</p>
+<p>With Desjardins, you can benefit from highly competitive rates &#8211; exclusively for PrestaShop users:</p>
+<p>- Monthly fee: $0<br />
+- Fixed rate: 2.52%<br />
+- Transaction fee: $0.25<br />
+- Purchases deposited within 24 hours.</p>
+<p>Desjardins offers robust and secure payment solutions designed to help you mitigate risk; and excellent, bilingual customer service.</p>
+<p>The <a href="http://addons.prestashop.com/en/payments-gateways-prestashop-modules/14656-desjardins.html" target="_blank">Desjardins’ module</a> is available native in the software or can be downloaded, for free, via <strong>PrestaShop’s Official Marketplace.</strong> It is compatible with PrestaShop v1.5.0.1 to v1.6.0.6.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/canada-7-tips-on-fraud-and-risk-control-for-ecommerce/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Free Ecommerce Webinar: Sales Tax and the PrestaShop Merchant</title>
+		<link>http://www.prestashop.com/blog/en/free-ecommerce-webinar-sales-tax-and-the-prestashop-merchant/</link>
+		<comments>http://www.prestashop.com/blog/en/free-ecommerce-webinar-sales-tax-and-the-prestashop-merchant/#comments</comments>
+		<pubDate>Wed, 23 Apr 2014 14:28:04 +0000</pubDate>
+		<dc:creator>Deborah Penna</dc:creator>
+				<category><![CDATA[PrestaShop Partners]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17009</guid>
+		<description><![CDATA[As an e-merchant, you should always make sure to keep abreast of new legislation and changing regulations. Did you know that if current legislation passed into law, online merchants would be required to pay sales tax? If approved, the legislation &#8230; <a href="http://www.prestashop.com/blog/en/free-ecommerce-webinar-sales-tax-and-the-prestashop-merchant/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
+			<content:encoded><![CDATA[<p>As an e-merchant, you should always make sure to keep abreast of new legislation and changing regulations.</p>
+<p>Did you know that if current legislation passed into law, <strong>online merchants would be required to pay sales tax?</strong> If approved, the legislation will grant federal permission for states to require collection of sales tax by remote sellers.</p>
+<p>Join this <a href="http://w.on24.com/r.htm?e=777714&amp;s=1&amp;k=B4371D4CE568DC20AC0872A19FC376CA" target="_blank"><strong>free Sales Tax Webinar</strong></a> and learn more about the current legislation and how it could impact your business!</p>
+<p><img class="aligncenter size-full wp-image-17021" title="Avalara Webinar" src="http://www.prestashop.com/blog/en/files/2014/04/Avalara-Webinar.jpg" alt="" width="580" height="250" /><br />
+<span id="more-17009"></span></p>
+<p><img class="size-full wp-image-17022 alignleft" title="Avalara-logo-with-tagline-full-color-a" src="http://www.prestashop.com/blog/en/files/2014/04/Avalara-logo-with-tagline-full-color-a.png" alt="" width="196" height="83" /><br />
+<span style="color: #333333;"><strong>Free Ecommerce Webinar: Sales Tax and the PrestaShop Merchant</strong></span><br />
+<strong><span style="color: #ff9900;">Date:</span> Friday, April 25th, 2014</strong><br />
+<strong><span style="color: #ff9900;">Time:</span> 10:00 AM PST / 1:00 PM EST</strong></p>
+<p>Thanks to <a href="http://addons.prestashop.com/en/billing-invoicing-prestashop-modules/5040-avalara-avatax.html" target="_blank"><strong>Avalara</strong></a>, find out what your duties and liabilities are when selling online, across states or countries.</p>
+<p>This free webinar will help you understand <strong><em>important</em> </strong>issues, such as:</p>
+<p style="padding-left: 60px;"><strong><span style="color: #ff6600;"> -</span></strong> How states define nexus for ecommerce<br />
+<strong><span style="color: #ff6600;">-</span> </strong>How you can protect yourself in case of audit<br />
+<strong><span style="color: #ff6600;">-</span></strong> Tax automation options for ecommerce merchants</p>
+<p><strong><span style="color: #333333;">Only 2 days left! Register now by</span> <a href="http://w.on24.com/r.htm?e=777714&amp;s=1&amp;k=B4371D4CE568DC20AC0872A19FC376CA" target="_blank">clicking here</a>.</strong></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/free-ecommerce-webinar-sales-tax-and-the-prestashop-merchant/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>PrestaShop World Tour: Argentina, Our First Stop in South America!</title>
+		<link>http://www.prestashop.com/blog/en/prestashop-world-tour-argentina-our-first-stop-in-south-america/</link>
+		<comments>http://www.prestashop.com/blog/en/prestashop-world-tour-argentina-our-first-stop-in-south-america/#comments</comments>
+		<pubDate>Wed, 23 Apr 2014 13:42:26 +0000</pubDate>
+		<dc:creator>Quentin Audrain</dc:creator>
+				<category><![CDATA[PrestaShop World Tour]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17000</guid>
+		<description><![CDATA[It’s time for us to discover ecommerce in a new continent. We’re headed to Argentina, our first stop in South America! Although ecommerce here is still in the early stages, it is growing exponentially. This growth is partially due to &#8230; <a href="http://www.prestashop.com/blog/en/prestashop-world-tour-argentina-our-first-stop-in-south-america/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
+			<content:encoded><![CDATA[<p style="text-align: left;">It’s time for us to discover ecommerce in a new continent. We’re headed to Argentina, our first stop in South America!<br />
+<img class="aligncenter  wp-image-17001" title="Buenos Aires Argentina World Tour Main Image" src="http://www.prestashop.com/blog/en/files/2014/04/Buenos-Aires-Argentina-World-Tour-Main-Image.jpg" alt="" width="522" height="317" /><br />
+<span id="more-17000"></span></p>
+<p>Although ecommerce here is still in the early stages, it is growing exponentially. This growth is partially due to <a href="http://postandparcel.info/59698/news/regulation/argentina-imposes-tight-restrictions-on-cross-border-e-commerce/" target="_blank">government regulations</a> on foreign ecommerce. Each citizen is only allowed 2 purchases a year from international online stores.</p>
+<p style="text-align: center;"><img class="aligncenter  wp-image-17002" title="Buenos Aires Argentina World Tour" src="http://www.prestashop.com/blog/en/files/2014/04/Buenos-Aires-Argentina-World-Tour.jpg" alt="" width="522" height="291" /></p>
+<p style="text-align: left;">Restrictions like this help local online businesses grow faster. It has already helped put Argentina on the ecommerce map. Ecommerce sales for this country has exceeded $4 billion, making it one of the biggest in South America.</p>
+<p>We’ve sat down with Xavier Protto from <a href="http://www.prottoesnaola.com/2012/ " target="_blank">Protto+Esnaola</a> to learn more about the dynamic environment we landed in. Come check it out!</p>
+<p><iframe src="//player.vimeo.com/video/92731079" frameborder="0" width="500" height="281"></iframe></p>
+<p><a href="http://vimeo.com/92731079">Ecommerce WorldTour &#8211; Protto+Esnaola Agency, Buenos Aires</a> from <a href="http://vimeo.com/prestashop">PrestaShop</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<p>Next Stop: <span style="color: #0000ff;"><strong>SAO PAULO</strong></span></p>
+<p>Join the PrestaShop World Tour conversation with hashtag #PSWorldTour and follow the journey via <a href="https://twitter.com/PrestaShop" target="_blank">Twitter</a>, <a href="http://instagram.com/prestashop" target="_blank">Instagram</a> and <a href="https://www.facebook.com/prestashop " target="_blank">Facebook</a>!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/prestashop-world-tour-argentina-our-first-stop-in-south-america/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>The Smartest Checklists to Manage Your Online Store</title>
+		<link>http://www.prestashop.com/blog/en/the-smartest-checklists-to-manage-your-online-store/</link>
+		<comments>http://www.prestashop.com/blog/en/the-smartest-checklists-to-manage-your-online-store/#comments</comments>
+		<pubDate>Tue, 22 Apr 2014 15:11:03 +0000</pubDate>
+		<dc:creator>Julie Liu</dc:creator>
+				<category><![CDATA[Ecommerce Tips and Advice]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=16931</guid>
+		<description><![CDATA[We make lists for everything – from weekly lists for groceries to annual wish lists for birthdays. These checklists help us stay organized and leave nothing out. This is why we created the smartest checklists to manage your online store. &#8230; <a href="http://www.prestashop.com/blog/en/the-smartest-checklists-to-manage-your-online-store/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
+			<content:encoded><![CDATA[<p>We make lists for everything – from weekly lists for groceries to annual wish lists for birthdays. These checklists help us stay organized and leave nothing out. This is why we created the smartest checklists to manage your online store. We’ve compiled a list of tasks that are truly important for running an online business then divided them by how frequently they should be completed. These downloadable lists will help prioritize your daily activities to effectively run your online business.</p>
+<p><img class="aligncenter size-full wp-image-16932" src="http://www.prestashop.com/blog/en/files/2014/04/EN_-Ecommerce-Checklist.jpg" alt="" width="580" height="299" /></p>
+<p><span id="more-16931"></span></p>
+<p>These checklists are broken down by frequency – daily, weekly, and monthly. We then went a step further by organizing the lists by business function. They are listed in order of importance below:</p>
+<p style="padding-left: 60px">• <strong>Operations </strong>(keep your online store running)<br />
+• <strong>Customer Service</strong> (addresses any problems / issues from customers)<br />
+• <strong>User Experience</strong> (UX) (update your site to be more user friendly)<br />
+• <strong>Collect Data</strong> (actively gather information)<br />
+• <strong>Plan </strong>(schedule for upcoming events)<br />
+• <strong>Analyze </strong>(draw conclusions from the data you&#8217;ve collected)</p>
+<h4><span style="color: #dc143c">The PrestaShop Smart <strong>Daily </strong>Checklist:</span></h4>
+<p>The daily checklist should be completed&#8230; well every day. They should also be completed in the order listed below. Although collecting data ranks lower in importance than operations and customer service, these tasks are relatively easy to complete. Get to them first thing in the morning, or you probably won’t get to them later.</p>
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top" width="432">    √  Read Industry-Related News</td>
+<td style="text-align: center" valign="top" width="144">COLLECT DATA</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Read News About Your Online Store</td>
+<td style="text-align: center" valign="top" width="144">COLLECT DATA</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Jot Down Any Ideas / Problems With Site</td>
+<td style="text-align: center" valign="top" width="144">COLLECT DATA</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  <a href="http://www.prestashop.com/blog/en/professionally-manage-logistics-for-your-online-store/" target="_blank">Manage Logistics</a> (Fulfill, Process, Package, and Ship Orders)</td>
+<td style="text-align: center" valign="top" width="144">OPERATIONS</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Read And Reply To Customer Service Emails</td>
+<td style="text-align: center" valign="top" width="144">CUSTOMER SERVICE</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Participate / Post Content on Social Media</td>
+<td style="text-align: center" width="144">CUSTOMER SERVICE</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Read / Address Customer Comments (on Social Media)</td>
+<td style="text-align: center" width="144">CUSTOMER SERVICE</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<h4><span style="color: #dc143c">The PrestaShop Smart <strong>Weekly </strong>Checklist:</span></h4>
+<p>The weekly checklist should be completed on the day you experience the slowest sales. If you operate from Monday – Friday, aim for any day midweek. This way, you allow yourself plenty of time that day to complete both the weekly and daily checklists.</p>
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top" width="432">    √  Fulfill Orders From Other Marketplaces</td>
+<td style="text-align: center" valign="top" width="144">OPERATIONS</td>
+</tr>
+<tr>
+<td style="text-align: left" valign="top" width="432">    √  Track Your Shipments</td>
+<td style="text-align: center" valign="top" width="144">OPERATIONS</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Process Returns / Exchanges</td>
+<td style="text-align: center" valign="top" width="144">OPERATIONS</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  (If Multi-currency) Update Exchange Rates</td>
+<td style="text-align: center" valign="top" width="144">OPERATIONS</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Restock / Reorder Inventory &amp; Supplies</td>
+<td style="text-align: center" width="144">OPERATIONS</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Balance Books / Accounting Tasks (Trust me, don’t put it off)</td>
+<td style="text-align: center" valign="top" width="144">OPERATIONS</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Follow Up with Referrals</td>
+<td style="text-align: center" valign="top" width="144">CUSTOMER SERVICE</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Test Checkout Process (All Payment Processors)</td>
+<td style="text-align: center" valign="top" width="144">UX</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Test Product Filters (Should Produce Accurate Results)</td>
+<td style="text-align: center" valign="top" width="144">UX</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Test All Links (No<a href="http://www.prestashop.com/blog/en/404-not-found-error-how-to-fix-it/" target="_blank"> 404 Error Pages</a>)</td>
+<td style="text-align: center" valign="top" width="144">UX</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Test Search to Improve Intelligent Search</td>
+<td style="text-align: center" valign="top" width="144">UX</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Test Responsiveness on Mobile Devices</td>
+<td style="text-align: center" valign="top" width="144">UX</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Test Ecommerce Store on All Browsers</td>
+<td style="text-align: center" valign="top" width="144">UX</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Test Each Product Category (Should Have Products)</td>
+<td style="text-align: center" valign="top" width="144">UX</td>
+</tr>
+<tr>
+<td style="text-align: left" valign="top" width="432">    √  Review Sales</td>
+<td style="text-align: center" valign="top" width="144">ANALYZE</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Review your Marketing / Sales Initiatives</td>
+<td style="text-align: center" valign="top" width="144">ANALYZE</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<h4></h4>
+<h4><span style="color: #dc143c">The PrestaShop Smart <strong>Monthly </strong>Checklist:</span></h4>
+<p>The monthly checklist should not be completed on a specific day but instead distributed throughout the month. When distributing tasks, group them by function – this way you’re completing similar tasks. The most important function on the monthly checklist is planning. Also important this month is analyzing sales data – which helps you plan.</p>
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top" width="432">    √  Plan Upcoming Sales (include <a href="http://www.prestashop.com/blog/en/important-shopping-dates-for-e-commerce-merchants-2014/" target="_blank">Important Shopping Dates</a>)</td>
+<td style="text-align: center" valign="top" width="144">PLAN</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Plan Advertising / Marketing (for month)</td>
+<td style="text-align: center" valign="top" width="144">PLAN</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Outline Social Media Posts (for month)</td>
+<td style="text-align: center" valign="top" width="144">PLAN</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Review Sales</td>
+<td style="text-align: center" width="144">ANALYZE</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Define Best Sellers</td>
+<td style="text-align: center" width="144">ANALYZE</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Define Poor Sellers</td>
+<td style="text-align: center" width="144">ANALYZE</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Forecast Sales</td>
+<td style="text-align: center" width="144">ANALYZE</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Note Top Customers</td>
+<td style="text-align: center" valign="top" width="144">ANALYZE</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Update Newsletter Subscription Email List</td>
+<td style="text-align: center" valign="top" width="144">OPERATIONS</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Check Competitor Pricing</td>
+<td style="text-align: center" valign="top" width="144">COLLECT DATA</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Subscribe to More Competitor Emails</td>
+<td style="text-align: center" valign="top" width="144">COLLECT DATA</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Ask for <a href="http://www.usertesting.com/" target="_blank">Feedback on your Site</a></td>
+<td style="text-align: center" valign="top" width="144">COLLECT DATA</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Test your Site Speed</td>
+<td style="text-align: center" valign="top" width="144">UX</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Ensure Each Page has a Clear <a href="http://www.prestashop.com/blog/en/the-importance-of-call-to-action-buttons-on-your-e-commerce-site/" target="_blank">Call to Action</a> (Add to Bag)</td>
+<td style="text-align: center" valign="top" width="144">UX</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Test Email Subscription Banner</td>
+<td style="text-align: center" valign="top" width="144">UX</td>
+</tr>
+<tr>
+<td valign="top" width="432">    √  Update Banners to feature Current Sales</td>
+<td style="text-align: center" valign="top" width="144">UX</td>
+</tr>
+</tbody>
+</table>
+<p>Download and print the <a href="http://www.prestashop.com/blog/en/files/2014/04/EN-The-PrestaShop-Smart-Checklists-to-Manage-your-Online-Store.pdf" target="_blank">daily, weekly and monthly checklists</a> to start organizing your ecommerce schedule! Share other tactics that help you organize your schedule in the comments below. Also let us know of any important tasks we may have missed.</p>
+<p>_________________</p>
+<p>Not an online merchant yet? <a href="http://www.prestashop.com/en/demo" target="_blank">Demo </a>PrestaShop to get a feel for the best shopping cart software or <a href="http://www.prestashop.com/en/download" target="_blank">Download </a>the best ecommerce software and start selling today!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/the-smartest-checklists-to-manage-your-online-store/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How to Choose an Ecommerce Web Hosting Provider for your Online Store</title>
+		<link>http://www.prestashop.com/blog/en/how-to-choose-an-ecommerce-web-hosting-provider-for-your-online-store/</link>
+		<comments>http://www.prestashop.com/blog/en/how-to-choose-an-ecommerce-web-hosting-provider-for-your-online-store/#comments</comments>
+		<pubDate>Mon, 21 Apr 2014 13:50:55 +0000</pubDate>
+		<dc:creator>Julie Liu</dc:creator>
+				<category><![CDATA[PrestaShop Partners]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=16821</guid>
+		<description><![CDATA[If you’re starting an online business, you’re probably reading this article as part of your initial research. (As a research addict, I commend you for that.) You have probably heard that you will need a good web hosting provider. But &#8230; <a href="http://www.prestashop.com/blog/en/how-to-choose-an-ecommerce-web-hosting-provider-for-your-online-store/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
+			<content:encoded><![CDATA[<p>If you’re starting an online business, you’re probably reading this article as part of your initial research. (As a research addict, I commend you for that.) You have probably heard that you will need a good web hosting provider. But with so many hosting options available, how do you pick? We’re helping you choose an ecommerce web hosting provider by highlighting 5 important features.</p>
+<p><img class="aligncenter size-full wp-image-16843" src="http://www.prestashop.com/blog/en/files/2014/04/EN-InMotion-Hosting-Main.jpg" alt="" width="580" height="278" /></p>
+<p><span id="more-16821"></span></p>
+<h2><span style="color: #696969">1. Speed</span></h2>
+<p>Speed, specifically fast load times, is very important. According to “How<a href="http://blog.kissmetrics.com/loading-time/" target="_blank"> Loading Time</a> Affects Your Bottom Line” published by leading research companies, 47% of consumers expect a page to load in seconds. 40% of them will abandon the site if it takes too long to load. Once a customer gets to your site, it would be a shame for them to leave before they see your products. Your web hosting provider plays a key role in your site’s load speed. PrestaShop users are in luck! We’re partnered with <a href="https://secure1.inmotionhosting.com/cgi-bin/gby/clickthru.cgi?id=prestashop&amp;page=336" target="_blank">InMotion Hosting</a>, a world class provider of web hosting and our #1 recommended hosting partner. With MAX Speed Zones, InMotion Hosting delivers fast worldwide speeds for fast load times regardless of your location.</p>
+<h2><span style="color: #696969">2. Customer Service</span></h2>
+<p>As with most technology, things work until they don’t. You’ll want customer support that is available 24/7/365 with quick response times. Chat with the sales team or call support to experience the customer service firsthand. For an added bonus, check to see if they have forums. InMotion Hosting not only has a forum but specifically offers an Educational Channel for PrestaShop users. Also, look for companies with credible awards. Having an A+ rating from the BBB for 4 consecutive years speaks for InMotion Hosting’s dependable customer service.</p>
+<p style="text-align: center"><img class="aligncenter size-full wp-image-16862" src="http://www.prestashop.com/blog/en/files/2014/04/logo.png" alt="" width="137" height="83" /></p>
+<h2><span style="color: #696969">3. Storage</span></h2>
+<p>Ecommerce storage is determined by the pictures and videos you use. Both their size and quantity quickly take up space. Some web hosting companies limit not only the amount of data stored but also the amount transferred onto their servers. Host servers like InMotion Hosting provide unlimited storage and data transfers which are essential when starting your online business. Your new ecommerce site should not be limited by data storage.</p>
+<h2><span style="color: #696969">4. Domains</span></h2>
+<p>The domain name is the web address that will access your site. Check out our recent blog post for tips on picking the <a title="How to Pick the Right Domain Name for your Online Store" href="http://www.prestashop.com/blog/en/how-to-pick-the-right-domain-name-for-your-online-store/" target="_blank">right domain name</a>. Having a free domain is great but you’ll also want a few extra ones. These extra domains work as if you’re calling dibs on another web address, which is especially helpful when your web address is commonly misspelled. For example, someone who types www.prestashop.org will be automatically redirected to www.prestashop.com. With 6 parked domains included, InMotion Hosting helps ensure customers can easily find your site.</p>
+<p style="text-align: center"><img class="aligncenter size-full wp-image-16841" src="http://www.prestashop.com/blog/en/files/2014/04/www.jpg" alt="" width="150" height="120" /></p>
+<h2><span style="color: #696969">5. Security</span></h2>
+<p>As an ecommerce site, you’ll receive payment for your products. A private SSL will help build customers’ confidence in your site. They protect not only credit card information but also user logins and passwords. These issues don’t normally arise with regular customers but are needed to discourage and prevent hackers from stealing confidential information.</p>
+<p style="text-align: center"><img class="aligncenter  wp-image-16840" src="http://www.prestashop.com/blog/en/files/2014/04/InMotion-Hosting-Logo.png" alt="" width="319" height="125" /></p>
+<p style="text-align: left">In addition to meeting and surpassing our top 5 features, InMotion Hosting also offers PrestaShop merchants:</p>
+<p style="padding-left: 60px">● 99.99% uptime<br />
+● Automated backups<br />
+● 300+ free applications<br />
+● SPAM Safe E-mail Accounts<br />
+● Money Back Guarantee</p>
+<p>Start your online business today with InMotion Hosting’s fast hosting Speeds and the auto installation of PrestaShop at a <a href="https://secure1.inmotionhosting.com/cgi-bin/gby/clickthru.cgi?id=prestashop&amp;page=336" target="_blank">special discounted rate</a>!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/how-to-choose-an-ecommerce-web-hosting-provider-for-your-online-store/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>US and Canadian credit card processing: increasing your store’s efficiency</title>
+		<link>http://www.prestashop.com/blog/en/us-canadian-credit-card-processing-increasing-your-stores-efficiency/</link>
+		<comments>http://www.prestashop.com/blog/en/us-canadian-credit-card-processing-increasing-your-stores-efficiency/#comments</comments>
+		<pubDate>Fri, 18 Apr 2014 09:24:30 +0000</pubDate>
+		<dc:creator>Deborah Penna</dc:creator>
+				<category><![CDATA[PrestaShop Partners]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=16783</guid>
+		<description><![CDATA[It’s a fact.  The online shopping scene is rapidly evolving: the number of online stores and buyers is rising; more sophisticated and powerful e-commerce tools are being developed; the advent of m-commerce &#8211; smartphones and tablets changing the way people &#8230; <a href="http://www.prestashop.com/blog/en/us-canadian-credit-card-processing-increasing-your-stores-efficiency/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
+			<content:encoded><![CDATA[<p>It’s a fact.  The online shopping scene is rapidly evolving: the number of online stores and buyers is rising; more sophisticated and powerful e-commerce tools are being developed; the advent of m-commerce &#8211; smartphones and tablets changing the way people shop; the increasing need to go wireless and allow customers to shop anywhere, anytime! <strong>You simply can’t afford to let your business lag behind.</strong></p>
+<p>In our quest to improve our online offering, satisfy our customers and manage the complexity of it all, <strong>it’s key to select an optimal and simplified payment solution</strong> that will make it easy for your customers to purchase &#8211; by offering a wide array of payment options &#8211; on your online store and for you to manage the back-end.</p>
+<p><img class="alignnone size-full wp-image-16789" src="http://www.prestashop.com/blog/en/files/2014/04/BluePay_Credit_Card1.jpg" alt="" width="560" height="373" /></p>
+<p>&nbsp;</p>
+<p><span id="more-16783"></span></p>
+<h2>Grow your business by accepting credit and debit cards</h2>
+<p><strong>Recent statistics show an immediate increase in sales when businesses start accepting credit and debit cards.</strong>  Yet, the majority of small businesses do not offer these options and estimates indicate that <a href="http://www.prlog.org/12267117-consumers-spend-100-more-when-businesses-accept-credit-card-payments.html" target="_blank">up to 80% of sales are generally lost, as a result</a>.</p>
+<p>Giving your customers the option to pay with their preferred payment method, not only will it drive sales but, at the same time, it will open up other sales channels, by allowing payments to be made by mobile phones and tablets.</p>
+<h2>Save money on processing fees and consolidate your merchant services</h2>
+<p>Most businesses will say that the high processing fees are the major stumbling block to offering card payments to their customers. It’s true that often processing fees are high. However, <strong>a careful pricing strategy can help you better offset the high card costs,</strong> for example, by:</p>
+<p>- integrating the cost in your selling price; and<br />
+- selecting a Card Processing Partner that has the ability to offer lower rates and the right price plan for your needs</p>
+<p><strong>Another issue that often prevents a merchant from having a healthy profit margin and promoting growth is the use of different merchant accounts.</strong>  Working with multiple vendors adds complexity to your operations and it increases your costs, making payment processing very expensive indeed.  The key here is to optimize and simplify your operations by consolidating your merchant services into one main merchant account.</p>
+<h3>BluePay’s services for PrestaShop merchants in Canada and USA</h3>
+<p>BluePay’s specialized team of experts and specialists, combining over 100 years’ leadership, provide credit card processing services of the highest standard.</p>
+<p><img class="size-full wp-image-16784 aligncenter" src="http://www.prestashop.com/blog/en/files/2014/04/BLuePay_Logo.jpg" alt="" width="344" height="85" /><br />
+Being able to leverage their long experience and expertise means that you will get <strong>the lowest processing rates,</strong> in the industry.</p>
+<p><strong>With BluePay, you have access to a wide range of products:</strong></p>
+<p>- All-in-One Merchant Account – save money by consolidating and improve your costs visibility and transparency<br />
+- Credit Card and E-Check Processing<br />
+- Mobile &amp; Tablet Credit Card POS Processing<br />
+- Free Payment Gateway<br />
+- Secured Hosted Payment Form<br />
+- PCI Compliance<br />
+- Security &amp; Support<br />
+- Comprehensive Reporting</p>
+<p>BluePay works with merchants all over the world and is <strong>a single source provider for all of your processing needs. </strong> <a href="http://addons.prestashop.com/en/payments-gateways-prestashop-modules/8966-bluepay.html" target="_blank">BluePay’s payment processing module</a> for PrestaShop is available for download on PrestaShop’s Official Marketplace – for free.  It’s also available native in the software and it is compatible with PrestaShop v1.4.0.1 to v1.6.0.6.</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/us-canadian-credit-card-processing-increasing-your-stores-efficiency/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>PrestaShop Hackathon – Design the future of ecommerce for a chance to win 10,000€!</title>
+		<link>http://www.prestashop.com/blog/en/prestashop-hackathon-design-the-future-of-ecommerce-for-a-chance-to-win-10000e/</link>
+		<comments>http://www.prestashop.com/blog/en/prestashop-hackathon-design-the-future-of-ecommerce-for-a-chance-to-win-10000e/#comments</comments>
+		<pubDate>Thu, 17 Apr 2014 11:48:37 +0000</pubDate>
+		<dc:creator>Julie Liu</dc:creator>
+				<category><![CDATA[Events]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=16761</guid>
+		<description><![CDATA[Attention all PHP developers &#8211; PrestaShop launches an Ecommerce Hackathon! Design the future of ecommerce in 24 hours. Ready for the challenge? Join us in Paris at EEMI, l’Ecole Européenne des Métiers de l’Internet (European School for Internet Professions), beginning &#8230; <a href="http://www.prestashop.com/blog/en/prestashop-hackathon-design-the-future-of-ecommerce-for-a-chance-to-win-10000e/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
+			<content:encoded><![CDATA[<h4><span style="color: #99cc00;"><strong>Attention all PHP developers &#8211; PrestaShop launches an Ecommerce Hackathon!</strong></span></h4>
+<p><img style="border: 0pt none; float: left; padding-right: 20px; padding-bottom: 10px;" src="http://www.prestashop.com/blog/fr/files/2014/04/prestashop-hackathon-logo.png" alt="" width="243" height="211" /></p>
+<p><strong>Design the future of ecommerce in 24 hours.</strong> Ready for the challenge?</p>
+<p>Join us in Paris at <a href="http://www.eemi.com/fr/prestashop-et-leemi-reperent-les-talents-du-web-lors-dun-hackathon" target="_blank">EEMI</a>, l’Ecole Européenne des Métiers de l’Internet (European School for Internet Professions), beginning at 9:00AM May 24<sup>th</sup>. You will work alongside other talented developers to see who comes out head! Drinks, food, and Internet will be provided. Just bring your computer, talent and &#8211; most importantly &#8211; your creativity!</p>
+<p><span id="more-16761"></span></p>
+<p>Groups will be judged on the development <strong>quality </strong>and the <strong>innovation</strong> of their application. After the competition our judges will deliberate and present a <strong>10,000€</strong> check to the best project! Second and third place projects will be awarded <strong>3,000€</strong> and <strong>2,000€</strong> respectively.</p>
+<p>To participate, <a href="http://hackathon.prestashop.com/en/" target="_blank">register</a> on the PrestaShop Hackathon website. We’re giving you a taste of the competition with a small test to confirm your entry.<strong></strong></p>
+<p>Hurry up and register there are <strong>only 150 seats available</strong>! Do not miss the opportunity to participate in this <strong>amazing experience</strong> and <strong>showcase your talent</strong>! For complete details visit the <a href="http://hackathon.prestashop.com/en/" target="_blank">PrestaShop Hackathon Page</a>.</p>
+<p><a href="http://hackathon.prestashop.com/en/" target="_blank">Register now</a> <strong>for free</strong>!</p>
+<p><span style="font-size: 12px;">See our <a style="font-size: 12px;" href="http://hackathon.prestashop.com/pdf/prestashop-hackathon-reglement.pdf" target="_blank">contest rules</a> for more information</span></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/prestashop-hackathon-design-the-future-of-ecommerce-for-a-chance-to-win-10000e/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Minified using disk: basic
+Page Caching using disk: enhanced
+Object Caching 826/981 objects using disk: basic
+
+Served from: www.prestashop.com @ 2014-05-05 16:56:02 -->
