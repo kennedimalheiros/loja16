@@ -7,7 +7,7 @@ $emaildestinatario = 'programacaomoc@gmail.com'; // Digite seu e-mail aqui, lemb
 $ddd      	   	   = $_POST['ddd'];
 $telefone      	   = $_POST['telefone'];
 $assunto          = $_POST['assunto'];
-$outros          = $_POST['outros'];
+<!--$outros          = $_POST['outros']; -->
 $mensagem          = $_POST['mensagem'];
  
  
