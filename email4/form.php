@@ -3,7 +3,7 @@ require 'PHPMailerAutoload.php';
 
 $ClienteEmail = $_GET['email' ];
 $ClienteNome  = $_GET['nome' ];
-$ClienteConteudo  = $_GET['conteudo' ];
+//$ClienteConteudo  = $_GET['conteudo' ];
 
 
 $mail = new PHPMailer;
@@ -30,7 +30,11 @@ $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Titulo do Email';  //Titulo do email
-$mail->Body    = $ClienteConteudo; //Conteudo do Email com HTML
+
+//Read an HTML message body from an external file, convert referenced images to embedded,
+//convert HTML into a basic plain-text alternative body
+$mail->msgHTML(file_get_contents('account.html'), dirname(__FILE__));
+
 //$mail->Body    = 'Loja ATS <b>Esta Funcionando \º/!</b>'; //Conteudo do Email com HTML
 //$mail->AltBody = 'Loja ATS Esta Funcionando sem HTML!';   //Conteudo do Email sem HTML
 
