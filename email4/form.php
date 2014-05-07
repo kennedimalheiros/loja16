@@ -1,7 +1,9 @@
 <?php
 require 'PHPMailerAutoload.php';
 
-$EmailDestino = $_GET['email' ];
+$ClienteEmail = $_GET['email' ];
+$ClienteNome  = $_GET['nome' ];
+$ClienteConteudo  = $_GET['conteudo' ];
 
 
 $mail = new PHPMailer;
@@ -28,8 +30,9 @@ $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Titulo do Email';  //Titulo do email
-$mail->Body    = 'Loja ATS <b>Esta Funcionando \º/!</b>'; //Conteudo do Email com HTML
-$mail->AltBody = 'Loja ATS Esta Funcionando sem HTML!';   //Conteudo do Email sem HTML
+$mail->Body    = $ClienteConteudo; //Conteudo do Email com HTML
+//$mail->Body    = 'Loja ATS <b>Esta Funcionando \º/!</b>'; //Conteudo do Email com HTML
+//$mail->AltBody = 'Loja ATS Esta Funcionando sem HTML!';   //Conteudo do Email sem HTML
 
 if(!$mail->send()) {
    echo 'Mensagem não pôde ser enviada.';
