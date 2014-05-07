@@ -17,7 +17,7 @@ $mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl
 
 $mail->From = 'programacaomoc@gmail.com'; //Email de quem esta enviando
 $mail->FromName = 'Loja ATS';  //Nome de quem esta enviando
-$mail->addAddress($EmailDestino, 'Kennedi Malheiros');  // Email do destinatario, Name é opcional
+$mail->addAddress($ClienteEmail, $ClienteNome);  // Email do destinatario, Name é opcional
 //$mail->addAddress('kennedimalheiros@gmail.com', 'Kennedi Malheiros');  // Email do destinatario, Name é opcional
 //$mail->addAddress('kennedimalheiros@gmail.com');               // Outro destinatario, Name é opcional
 $mail->addReplyTo('programacaomoc@gmail.com', 'Responder');    //Email de resposta
