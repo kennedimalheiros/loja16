@@ -6,7 +6,7 @@ $ClienteNome  = $_GET['nome' ];
 $ClienteSobreNome  = $_GET['sobreNome' ];
 $NomeLoja  = $_GET['nomeLoja' ];
 $ReferenciaPedido  = $_GET['referenciaPedido'];
-
+$UrlLogo  = $_GET['urlLogo'];
 
 $mail = new PHPMailer;
 
@@ -39,6 +39,8 @@ $conteudoHTML = str_replace('{firstname}', $ClienteNome, file_get_contents('../m
 $conteudoHTML = str_replace('{lastname}', $ClienteSobreNome, $conteudoHTML);
 $conteudoHTML = str_replace('{shop_name}', $NomeLoja, $conteudoHTML);
 $conteudoHTML = str_replace('{order_name}', $ReferenciaPedido, $conteudoHTML);
+$conteudoHTML = str_replace('{shop_logo}', $UrlLogo, $conteudoHTML);
+
 //payment.html
 //shipped.html
 
