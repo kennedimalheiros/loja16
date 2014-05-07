@@ -2866,9 +2866,9 @@ class PHPMailer
      * @param bool $advanced Whether to use the advanced HTML to text converter
      * @return string $message
      */
-    public function msgHTML($message, $basedir = '', $advanced = false, $ClienteNome)
+    public function msgHTML($message, $basedir = '', $advanced = false)
     {
-		$message = str_replace('{firstname}', $ClienteNome, $message);
+		//$message = str_replace('{firstname}', 'KennediMalheiros', $message);
         
 		preg_match_all('/(src|background)=["\'](.*)["\']/Ui', $message, $images);
         if (isset($images[2])) {
