@@ -34,7 +34,7 @@ $mail->Subject = 'Titulo do Email';  //Titulo do email
 //Read an HTML message body from an external file, convert referenced images to embedded,
 //convert HTML into a basic plain-text alternative body
 //$mail->msgHTML(file_get_contents('account.html'), dirname(__FILE__));
-$mail->msgHTML(file_get_contents('bankwire.html'), dirname("../mails/br"));
+$mail->msgHTML(file_get_contents('bankwire.html'), dirname('../mails/br/'));
 
 //$mail->Body    = 'Loja ATS <b>Esta Funcionando \º/!</b>'; //Conteudo do Email com HTML
 //$mail->AltBody = 'Loja ATS Esta Funcionando sem HTML!';   //Conteudo do Email sem HTML
