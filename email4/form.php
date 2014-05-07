@@ -35,8 +35,7 @@ $mail->Subject = 'Titulo do Email';  //Titulo do email
 //$mail->msgHTML(file_get_contents('account.html'), dirname(__FILE__));
 //$mail->msgHTML(file_get_contents('../mails/br/bankwire.html'));
 $ModeloHTML = (file_get_contents('../mails/br/bankwire.html'));
-echo $ModeloHTML;
-$mail->$msgHTML($ModeloHTML);
+$mail->$msgHTML($ModeloHTML,'');
 //$mail->Body    = 'Loja ATS <b>Esta Funcionando \º/!</b>'; //Conteudo do Email com HTML
 //$mail->AltBody = 'Loja ATS Esta Funcionando sem HTML!';   //Conteudo do Email sem HTML
 
