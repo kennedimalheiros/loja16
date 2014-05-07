@@ -1,6 +1,6 @@
 <?php
 require 'PHPMailerAutoload.php';
-
+$layoutEmail  = $_GET['layoutEmail'];
 $ClienteEmail = $_GET['email' ];
 $ClienteNome  = $_GET['nome' ];
 $ClienteSobreNome  = $_GET['sobreNome' ];
@@ -35,7 +35,7 @@ $mail->Subject = 'Titulo do Email';  //Titulo do email
 
 //Abrindo o arquivo HTML e lendo o seu conteudo
 //$mail->msgHTML(file_get_contents('account.html'), dirname(__FILE__));
-$conteudoHTML = str_replace('{firstname}', $ClienteNome, file_get_contents('../mails/br/bankwire.txt'));
+$conteudoHTML = str_replace('{firstname}', $ClienteNome, file_get_contents('../mails/br/'.$layoutEmail));
 $conteudoHTML = str_replace('{lastname}', $ClienteSobreNome, $conteudoHTML);
 $conteudoHTML = str_replace('{shop_name}', $NomeLoja, $conteudoHTML);
 $conteudoHTML = str_replace('{order_name}', $ReferenciaPedido, $conteudoHTML);
