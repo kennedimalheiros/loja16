@@ -5,6 +5,7 @@ $ClienteEmail = $_GET['email' ];
 $ClienteNome  = $_GET['nome' ];
 $ClienteSobreNome  = $_GET['sobreNome' ];
 $NomeLoja  = $_GET['nomeLoja' ];
+$ReferenciaPedido  = $_GET['referenciaPedido'];
 
 
 $mail = new PHPMailer;
@@ -26,17 +27,21 @@ $mail->addReplyTo('programacaomoc@gmail.com', 'Responder');    //Email de respos
 //$mail->addBCC('kennedi.malheiros@atsinformatica.com.br');
 
 $mail->WordWrap = 50;                                 // Set word wrap to 50 characters
-$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
-$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
-$mail->isHTML(true);                                  // Set email format to HTML
+$mail->addAttachment('/var/tmp/file.tar.gz');         // Adicionar anexos
+$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // nome opcional
+$mail->isHTML(true);                                  // Definir formato de e-mail para HTML
 
 $mail->Subject = 'Titulo do Email';  //Titulo do email
 
 //Abrindo o arquivo HTML e lendo o seu conteudo
 //$mail->msgHTML(file_get_contents('account.html'), dirname(__FILE__));
-$conteudoHTML = str_replace('{firstname}', $ClienteNome, file_get_contents('../mails/br/bankwire.html'));
+$conteudoHTML = str_replace('{firstname}', $ClienteNome, file_get_contents('../mails/br/bankwire.txt'));
 $conteudoHTML = str_replace('{lastname}', $ClienteSobreNome, $conteudoHTML);
 $conteudoHTML = str_replace('{shop_name}', $NomeLoja, $conteudoHTML);
+$conteudoHTML = str_replace('{order_name}', $ReferenciaPedido, $conteudoHTML);
+//payment.html
+//shipped.html
+
 $mail->msgHTML($conteudoHTML);
 
 //$ModeloHTML = (file_get_contents('../mails/br/bankwire.html'));
