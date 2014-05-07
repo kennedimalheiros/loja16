@@ -1,7 +1,8 @@
 <?php
 require 'PHPMailerAutoload.php';
 
-$EmailDestino = $_GET['emailDest' ];
+$EmailDestino = $_GET['email' ];
+
 
 $mail = new PHPMailer;
 
