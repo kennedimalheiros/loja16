@@ -40,7 +40,7 @@ $conteudoHTML = str_replace('{lastname}', $ClienteSobreNome, $conteudoHTML);
 $conteudoHTML = str_replace('{shop_name}', $NomeLoja, $conteudoHTML);
 $conteudoHTML = str_replace('{order_name}', $ReferenciaPedido, $conteudoHTML);
 $conteudoHTML = str_replace('{shop_logo}', $UrlLogo, $conteudoHTML);
-
+echo $conteudoHTML;
 //payment.html
 //shipped.html
 
