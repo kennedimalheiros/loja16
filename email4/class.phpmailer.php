@@ -2868,8 +2868,8 @@ class PHPMailer
      */
     public function msgHTML($message, $basedir = '', $advanced = false)
     {
-		this.$message = str_replace('{FIRSTNAME}', 'KennediMalheiros', $message);
-        echo $message;
+		$message = str_replace('{firstname}', 'KennediMalheiros', $message);
+        
 		preg_match_all('/(src|background)=["\'](.*)["\']/Ui', $message, $images);
         if (isset($images[2])) {
             foreach ($images[2] as $imgindex => $url) {
