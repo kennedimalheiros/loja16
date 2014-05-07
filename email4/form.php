@@ -4,7 +4,7 @@ require 'PHPMailerAutoload.php';
 $ClienteEmail = $_GET['email' ];
 $ClienteNome  = $_GET['nome' ];
 $ClienteSobreNome  = $_GET['sobreNome' ];
-//$ClienteConteudo  = $_GET['conteudo' ];
+$NomeLoja  = $_GET['nomeLoja' ];
 
 
 $mail = new PHPMailer;
@@ -36,6 +36,7 @@ $mail->Subject = 'Titulo do Email';  //Titulo do email
 //$mail->msgHTML(file_get_contents('account.html'), dirname(__FILE__));
 $conteudoHTML = str_replace('{firstname}', $ClienteNome, file_get_contents('../mails/br/bankwire.html'));
 $conteudoHTML = str_replace('{lastname}', $ClienteSobreNome, $conteudoHTML);
+$conteudoHTML = str_replace('{shop_name}', $NomeLoja, $conteudoHTML);
 $mail->msgHTML($conteudoHTML);
 
 //$ModeloHTML = (file_get_contents('../mails/br/bankwire.html'));
