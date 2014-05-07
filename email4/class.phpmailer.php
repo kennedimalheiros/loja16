@@ -1369,7 +1369,7 @@ class PHPMailer
      * @return bool
      * @access public
      */
-    public function setLanguage($langcode = 'en', $lang_path = '')
+    public function setLanguage($langcode = 'br', $lang_path = '')
     {
         //Define full set of translatable strings in English
         $PHPMAILER_LANG = array(
